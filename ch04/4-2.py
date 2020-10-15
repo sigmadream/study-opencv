@@ -19,7 +19,7 @@ cv.setTrackbarPos("high threshold", "Canny", 150)
 img_gray = cv.imread("orange.png", cv.IMREAD_GRAYSCALE)
 
 
-while 1:
+while True:
 
     low = cv.getTrackbarPos("low threshold", "Canny")
     high = cv.getTrackbarPos("high threshold", "Canny")
